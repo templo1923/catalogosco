@@ -3,7 +3,7 @@ const contact = [
 
     {
         nombre: 'En catálogo',
-        telefono: 543875683101,
+        telefono: 573004085041,
         email: 'info@encatalogo.com',
         direccion: 'Salta, Argentina',
         instagram: 'https://www.instagram.com/en_catalogo_web/',
@@ -12,4 +12,5 @@ const contact = [
     }
 
 ]
+
 export default contact
