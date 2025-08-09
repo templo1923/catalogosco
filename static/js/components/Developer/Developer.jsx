@@ -21,7 +21,7 @@ export default function Developer() {
     };
 
     const handleWhatsappMessage = () => {
-        const phoneNumber = 543875683101;
+        const phoneNumber = 573004085041;
         const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
         window.open(whatsappUrl, '_blank');
     };
@@ -29,7 +29,7 @@ export default function Developer() {
     return (
         <div className='Developer'>
             <p onClick={handleOpenModal}>
-                © 2024 En catálogo - Todos los derechos reservados.
+                © 2025 catálogoco.pro - Todos los derechos reservados.
             </p>
 
             <Modal
@@ -56,3 +56,4 @@ export default function Developer() {
         </div>
     );
 }
+
