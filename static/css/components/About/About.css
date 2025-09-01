@@ -1,0 +1,141 @@
+.aboutContain{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    padding: 150px 6% 50px;
+    /* height: 100vh;
+    background-image: url(../../images/bg4.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    gap: 1rem;
+}
+
+.aboutText p{
+    color: var(--text-color2);
+    font-size: 16px;
+   
+}
+.aboutText span{
+    color: var(--color1);
+    transform: skew(-10deg, 0deg);
+    font-size: 16px;
+  
+}
+.imgSec{
+    width: 70px;
+}
+.titleSec{
+    color: var(--color1);
+    font-size: 45px;
+}
+.aboutText a{
+    background-color: var(--color1);
+    padding: 13px;
+    border: none;
+    border-radius: 30rem;
+    color: var(--blanco);
+    font-size: 17px;
+    margin-top: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 13rem;
+    
+}
+.aboutText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: 60%;
+    align-items: center;
+}
+.imgAbout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+    
+}
+.imgAbout img{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    object-fit: contain;
+    
+}
+
+.cardsText{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+.cardText{
+         display: flex;
+        align-items: center;
+        gap: 10px;
+}
+.cardText p{
+    font-size: 15px;
+    color: var(--text-color2);
+}
+
+.deFlexImgCards{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+}
+.check{
+    color: var(--color1);
+   font-size: 20px;
+}
+.hrSection{
+    background-color: var(--color1);
+    width: 80%;
+    height: 3px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+@media (max-width: 1024px) {
+    .deFlexImgCards{
+     flex-direction: column;
+       
+    }
+    .aboutContain{
+       
+        padding: 150px 6%;
+        height: 100%;
+        flex-direction: column;
+        background-image: none;
+    }
+    .imgAbout img{
+        display: flex;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .titleSec{
+       
+        font-size: 30px;
+    }
+    .imgSec{
+       
+        width: 50px;
+    }
+    .aboutText p{
+      
+        font-size: 14px;
+        
+    }
+    .aboutText{
+        width: 100%;
+    }
+}
