@@ -12,19 +12,19 @@ export default function BtnMore() {
 
     const demos = [
         {
-            link: `https://indumentaria.encatalogo.com`,
+            link: `https://sistema-profesional-de-catalogo-digital-con-pedidos-a-whatsapp.vercel.app/`,
             img: `https://indumentaria.encatalogo.com/logo.png`,
-            titulo: 'Indumentaria',
+            titulo: 'Demo Sistema profesional Para Tienda (Multicatalogo)',
         },
         {
-            link: `https://tecnologia.encatalogo.com`,
+            link: `https://catalogosco.pro`,
             img: `https://tecnologia.encatalogo.com/logo.png`,
-            titulo: 'Tecnología',
+            titulo: 'Demo Sistema Profesional Para Turnos (Barberias,spa,consultorios, ect)',
         },
         {
-            link: `https://restaurante.encatalogo.com`,
+            link: `https://restaurante.catalogosco.pro`,
             img: `https://restaurante.encatalogo.com/logo.png`,
-            titulo: 'Restaurante',
+            titulo: 'Demo Sistema Para Restaurantes (Panaderias, Comidas, etc)',
         },
     ];
 
@@ -65,3 +65,4 @@ export default function BtnMore() {
         </div>
     );
 }
+
